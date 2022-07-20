@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  margin: 50px;
+  font-size: 5rem;
+  color: white;
+}
+
+footer {
+  margin: 100px;
+}
+
+.button-area {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.tbn {
+  position: relative;
+  margin: 20px;
+  padding: 0;
+  border: 10px solid #dcc178;
+  border-radius: 10%;
+  background-image: url("images/tbn-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: 240px 240px;
+  width: 250px;
+  height: 250px;
+}
+
+.button-num {
+  position: absolute;
+  left: 10%;
+  bottom: 0%;
+  font-size: 5rem;
+}
+
+.pressed {
+  transform: scale(0.9);
+  opacity: 0.8;
+}
